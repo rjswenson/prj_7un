@@ -124,10 +124,21 @@ Before ending a work session:
    ```
 5. **Verify** - All changes committed
 
+## Agent Workflow Templates
+
+Pre-defined templates for common development tasks:
+
+- [Feature Development](docs/workflows/feature-development.md) - Adding new functionality
+- [Bug Fix](docs/workflows/bug-fix.md) - Fixing broken functionality
+- [Refactoring](docs/workflows/refactoring.md) - Improving code quality
+
+See [docs/workflows/README.md](docs/workflows/README.md) for complete guide.
+
 ## Documentation
 
 - [PROJECTS.md](PROJECTS.md) - Project overview and details
 - [AGENTS.md](AGENTS.md) - Beads workflow and agent instructions
+- [Workflow Templates](docs/workflows/) - Agent task templates
 - Project-specific docs in each submodule
 
 ## Common Tasks
