@@ -67,23 +67,43 @@ rails server
 
 ---
 
-## 🚶 club-stroll-promo
+## 🎭 club-stroll-promo
 
-**Type:** Promotional Site
-**Status:** Minimal/Placeholder
+**Type:** Interactive Theatre Promo
+**Status:** Active
+**Tech Stack:** Astro, SEO, Marketing
 
 ### Description
-Minimal project directory. Purpose to be determined.
+Promotional website for an in-person interactive play based on Kansas City's rich history of jazz and nightlife. Features immersive storytelling, live performances, and audience participation to bring the vibrant era of the 1920s to life.
+
+### Key Features
+- Built with Astro for optimal performance
+- SEO-optimized for event promotion
+- Marketing-focused design
+- Showcases interactive theatre experience
+
+### Links
+- GitHub: [rjswenson/club-stroll-promo](https://github.com/rjswenson/club-stroll-promo)
 
 ---
 
 ## ☀️ sun-online
 
-**Type:** Web Project
-**Status:** Minimal/Placeholder
+**Type:** AI-Powered Content Server
+**Status:** Active (Featured)
+**Tech Stack:** Elixir, Python, FastAPI, AI/ML
 
 ### Description
-Minimal project directory. Purpose to be determined.
+An AI-powered content server using open source archives (Library of Congress, Avalon Project, Fordham University) to deliver educational content with clear transcriptions.
+
+### Key Features
+- AI/ML-powered content delivery
+- Integration with major educational archives
+- FastAPI backend for high performance
+- Elixir for scalable concurrent processing
+
+### Links
+- Live: [7un.online](https://7un.online)
 
 ---
 
@@ -108,8 +128,8 @@ bd sync               # Sync with git
 |---------|------|--------|------------|
 | sun-me | Portfolio | Active | Next.js, TypeScript |
 | Taggd.it | Community | Legacy | Rails 4.0 |
-| club-stroll-promo | TBD | Placeholder | - |
-| sun-online | TBD | Placeholder | - |
+| club-stroll-promo | Theatre Promo | Active | Astro |
+| sun-online | AI Content Server | Active | Elixir, Python, FastAPI |
 
 ---
 
