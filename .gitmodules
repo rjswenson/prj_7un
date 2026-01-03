@@ -1,0 +1,12 @@
+[submodule "Taggd.it"]
+	path = Taggd.it
+	url = git@github.com:rjswenson/Taggd.it.git
+[submodule "club-stroll-promo"]
+	path = club-stroll-promo
+	url = git@github.com:rjswenson/club-stroll-promo.git
+[submodule "sun-me"]
+	path = sun-me
+	url = git@github.com:rjswenson/sun-me.git
+[submodule "sun-online"]
+	path = sun-online
+	url = git@github.com:rjswenson/sun-online.git
