@@ -7,19 +7,20 @@ This repository contains multiple projects under the **Project 7UN** umbrella. B
 ## 🌟 sun-me
 
 **Type:** Personal Portfolio Website
-**Status:** Active Development
-**Tech Stack:** Next.js 14+, TypeScript, Tailwind CSS, Playwright
+**Status:** Production (Live)
+**Tech Stack:** Next.js 14+, TypeScript, Tailwind CSS, GSAP, Playwright
 
 ### Description
-A modern personal portfolio website showcasing professional work, skills, and contact information.
+A modern personal portfolio website showcasing professional work, skills, and contact information. Fully deployed and operational.
 
 ### Key Features
 - Server-side rendered with Next.js App Router
-- Responsive, mobile-first design
+- Responsive, mobile-first design with GSAP animations
 - Sections: Home, About, Projects, Resume, Contact
 - Server-side contact form with email delivery (via Resend)
 - End-to-end testing with Playwright
 - Deployed on Vercel with CI/CD via GitHub Actions
+- Custom domain: 7un.me
 
 ### Quick Start
 ```bash
@@ -27,11 +28,16 @@ cd sun-me
 npm install
 npm run dev          # Development server at http://localhost:3000
 npm test             # Run Playwright tests
+npm run build        # Production build
 ```
 
 ### Documentation
+- [README.md](sun-me/README.md) - Project overview and setup
 - [CLAUDE.md](sun-me/CLAUDE.md) - Development guidelines
 - [DEPLOYMENT.md](sun-me/DEPLOYMENT.md) - Deployment instructions
+
+### Links
+- Live: [7un.me](https://7un.me)
 
 ---
 
@@ -70,8 +76,8 @@ rails server
 ## 🎭 club-stroll-promo
 
 **Type:** Interactive Theatre Promo
-**Status:** Active
-**Tech Stack:** Astro, SEO, Marketing
+**Status:** Active Development (Scaffolded)
+**Tech Stack:** Astro 4.x, TypeScript, SEO, Marketing
 
 ### Description
 Promotional website for an in-person interactive play based on Kansas City's rich history of jazz and nightlife. Features immersive storytelling, live performances, and audience participation to bring the vibrant era of the 1920s to life.
@@ -81,6 +87,15 @@ Promotional website for an in-person interactive play based on Kansas City's ric
 - SEO-optimized for event promotion
 - Marketing-focused design
 - Showcases interactive theatre experience
+- TypeScript for type safety
+
+### Quick Start
+```bash
+cd club-stroll-promo
+npm install
+npm run dev          # Development server
+npm run build        # Production build
+```
 
 ### Links
 - GitHub: [rjswenson/club-stroll-promo](https://github.com/rjswenson/club-stroll-promo)
@@ -90,8 +105,8 @@ Promotional website for an in-person interactive play based on Kansas City's ric
 ## ☀️ sun-online
 
 **Type:** AI-Powered Content Server
-**Status:** Active (Featured)
-**Tech Stack:** Elixir, Python, FastAPI, AI/ML
+**Status:** Active Development (Scaffolded)
+**Tech Stack:** Elixir, Python, FastAPI, Docker, AI/ML
 
 ### Description
 An AI-powered content server using open source archives (Library of Congress, Avalon Project, Fordham University) to deliver educational content with clear transcriptions.
@@ -101,6 +116,19 @@ An AI-powered content server using open source archives (Library of Congress, Av
 - Integration with major educational archives
 - FastAPI backend for high performance
 - Elixir for scalable concurrent processing
+- Computer vision capabilities
+- Docker containerization for deployment
+
+### Quick Start
+```bash
+cd sun-online
+make setup           # Install dependencies
+make dev             # Start development environment
+make test            # Run test suite
+```
+
+### Documentation
+- [CONTRIBUTING.md](sun-online/CONTRIBUTING.md) - Development guidelines
 
 ### Links
 - Live: [7un.online](https://7un.online)
@@ -126,10 +154,10 @@ bd sync               # Sync with git
 
 | Project | Type | Status | Tech Stack |
 |---------|------|--------|------------|
-| sun-me | Portfolio | Active | Next.js, TypeScript |
-| Taggd.it | Community | Legacy | Rails 4.0 |
-| club-stroll-promo | Theatre Promo | Active | Astro |
-| sun-online | AI Content Server | Active | Elixir, Python, FastAPI |
+| sun-me | Portfolio | Production (Live) | Next.js, TypeScript, GSAP |
+| sun-online | AI Content Server | Active Development (Scaffolded) | Elixir, Python, FastAPI |
+| club-stroll-promo | Theatre Promo | Active Development (Scaffolded) | Astro, TypeScript |
+| Taggd.it | Community | Legacy (2013) | Rails 4.0 |
 
 ---
 
